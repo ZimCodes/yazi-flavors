@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+  <!-- METADATA -->
+  <key>name</key><string>Obsidian Veil</string>
+  <key>author</key><string>Custom</string>
+  <key>semanticClass</key><string>theme.dark.obsidianveil</string>
+  <key>colorSpaceName</key><string>sRGB</string>
+
+  <!-- GLOBAL SETTINGS -->
+  <key>settings</key>
+  <array>
+
+    <!-- GLOBAL COLORS -->
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key><string>#0A0A0D</string>
+        <key>foreground</key><string>#E4E4F0</string>
+        <key>caret</key><string>#E86A4A</string>
+        <key>invisibles</key><string>#1C1C22</string>
+        <key>lineHighlight</key><string>#121217</string>
+        <key>selection</key><string>#1A1A20</string>
+      </dict>
+    </dict>
+
+    <!-- COMMENTS -->
+    <dict>
+      <key>name</key><string>Comments</string>
+      <key>scope</key><string>comment</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#A8A8C0</string></dict>
+    </dict>
+
+    <!-- STRINGS -->
+    <dict>
+      <key>name</key><string>Strings</string>
+      <key>scope</key><string>string</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- NUMBERS -->
+    <dict>
+      <key>name</key><string>Numbers</string>
+      <key>scope</key><string>constant.numeric</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- CONSTANTS -->
+    <dict>
+      <key>name</key><string>Constants</string>
+      <key>scope</key><string>constant.language, constant.character.escape</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- KEYWORDS -->
+    <dict>
+      <key>name</key><string>Keywords</string>
+      <key>scope</key><string>keyword, storage.type, storage.modifier</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E86A4A</string></dict>
+    </dict>
+
+    <!-- OPERATORS -->
+    <dict>
+      <key>name</key><string>Operators</string>
+      <key>scope</key><string>keyword.operator</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E86A4A</string></dict>
+    </dict>
+
+    <!-- ENTITY NAMES (types, classes, functions) -->
+    <dict>
+      <key>name</key><string>Entity Names</string>
+      <key>scope</key><string>entity.name</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- FUNCTION DECLARATIONS -->
+    <dict>
+      <key>name</key><string>Function Declarations</string>
+      <key>scope</key><string>entity.name.function</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- FUNCTION CALLS -->
+    <dict>
+      <key>name</key><string>Function Calls</string>
+      <key>scope</key><string>variable.function, meta.function-call</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- VARIABLES -->
+    <dict>
+      <key>name</key><string>Variables</string>
+      <key>scope</key><string>variable.other, variable.parameter</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E4E4F0</string></dict>
+    </dict>
+
+    <!-- LANGUAGE VARIABLES -->
+    <dict>
+      <key>name</key><string>Language Variables</string>
+      <key>scope</key><string>variable.language</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- SUPPORT -->
+    <dict>
+      <key>name</key><string>Support</string>
+      <key>scope</key><string>support</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- MARKUP -->
+    <dict>
+      <key>name</key><string>Markup</string>
+      <key>scope</key><string>markup</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E4E4F0</string></dict>
+    </dict>
+
+    <!-- MARKUP HEADING -->
+    <dict>
+      <key>name</key><string>Markup Heading</string>
+      <key>scope</key><string>markup.heading</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E86A4A</string></dict>
+    </dict>
+
+    <!-- MARKUP BOLD -->
+    <dict>
+      <key>name</key><string>Markup Bold</string>
+      <key>scope</key><string>markup.bold</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><string>#C28CFF</string>
+        <key>fontStyle</key><string>bold</string>
+      </dict>
+    </dict>
+
+    <!-- MARKUP ITALIC -->
+    <dict>
+      <key>name</key><string>Markup Italic</string>
+      <key>scope</key><string>markup.italic</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><string>#5FE8FF</string>
+        <key>fontStyle</key><string>italic</string>
+      </dict>
+    </dict>
+
+    <!-- MARKUP RAW (CODE) -->
+    <dict>
+      <key>name</key><string>Markup Raw</string>
+      <key>scope</key><string>markup.raw</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- INVALID -->
+    <dict>
+      <key>name</key><string>Invalid</string>
+      <key>scope</key><string>invalid, invalid.illegal</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FF4F70</string></dict>
+    </dict>
+
+    <!-- DEPRECATED -->
+    <dict>
+      <key>name</key><string>Deprecated</string>
+      <key>scope</key><string>invalid.deprecated</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FF4F70</string></dict>
+    </dict>
+
+    <!-- PUNCTUATION -->
+    <dict>
+      <key>name</key><string>Punctuation</string>
+      <key>scope</key><string>punctuation</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#A8A8C0</string></dict>
+    </dict>
+
+    <!-- HTML TAGS -->
+    <dict>
+      <key>name</key><string>HTML Tags</string>
+      <key>scope</key><string>entity.name.tag.html, entity.name.tag.xml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E86A4A</string></dict>
+    </dict>
+
+    <!-- HTML TAG PUNCTUATION -->
+    <dict>
+      <key>name</key><string>HTML Tag Punctuation</string>
+      <key>scope</key><string>punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#A8A8C0</string></dict>
+    </dict>
+
+    <!-- HTML ATTRIBUTES -->
+    <dict>
+      <key>name</key><string>HTML Attributes</string>
+      <key>scope</key><string>entity.other.attribute-name.html, entity.other.attribute-name.xml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- HTML ENTITIES -->
+    <dict>
+      <key>name</key><string>HTML Entities</string>
+      <key>scope</key><string>constant.character.entity</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- CSS SELECTORS -->
+    <dict>
+      <key>name</key><string>CSS Selectors</string>
+      <key>scope</key><string>entity.name.tag.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- CSS PROPERTIES -->
+    <dict>
+      <key>name</key><string>CSS Properties</string>
+      <key>scope</key><string>support.type.property-name.css, support.type.property-name.scss</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- CSS VALUES -->
+    <dict>
+      <key>name</key><string>CSS Values</string>
+      <key>scope</key><string>support.constant.property-value.css, support.constant.property-value.scss</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- CSS PSEUDO -->
+    <dict>
+      <key>name</key><string>CSS Pseudo</string>
+      <key>scope</key><string>entity.other.pseudo-class.css, entity.other.pseudo-element.css</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- CSS COLORS -->
+    <dict>
+      <key>name</key><string>CSS Colors</string>
+      <key>scope</key><string>constant.other.color.rgb-value.css, constant.other.color.w3c-standard-color-name.css</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- JS/TS KEYWORDS -->
+    <dict>
+      <key>name</key><string>JS/TS Keywords</string>
+      <key>scope</key><string>keyword.control.js, keyword.control.ts, keyword.operator.new.js, keyword.operator.new.ts</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E86A4A</string></dict>
+    </dict>
+
+    <!-- JS/TS FUNCTIONS -->
+    <dict>
+      <key>name</key><string>JS/TS Functions</string>
+      <key>scope</key><string>entity.name.function.js, entity.name.function.ts</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- JS/TS CLASSES -->
+    <dict>
+      <key>name</key><string>JS/TS Classes</string>
+      <key>scope</key><string>entity.name.type.class.js, entity.name.type.class.ts</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- JS/TS THIS / SUPER -->
+    <dict>
+      <key>name</key><string>JS/TS Language Variables</string>
+      <key>scope</key><string>variable.language.this.js, variable.language.this.ts, variable.language.super.js, variable.language.super.ts</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- JSX TAGS -->
+    <dict>
+      <key>name</key><string>JSX Tags</string>
+      <key>scope</key><string>entity.name.tag.jsx, entity.name.tag.tsx</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E86A4A</string></dict>
+    </dict>
+
+    <!-- JSX ATTRIBUTES -->
+    <dict>
+      <key>name</key><string>JSX Attributes</string>
+      <key>scope</key><string>entity.other.attribute-name.jsx, entity.other.attribute-name.tsx</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- JSON KEYS -->
+    <dict>
+      <key>name</key><string>JSON Keys</string>
+      <key>scope</key><string>support.type.property-name.json</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- JSON VALUES -->
+    <dict>
+      <key>name</key><string>JSON Values</string>
+      <key>scope</key><string>string.quoted.double.json, constant.numeric.json, constant.language.json</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- YAML KEYS -->
+    <dict>
+      <key>name</key><string>YAML Keys</string>
+      <key>scope</key><string>entity.name.tag.yaml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- YAML VALUES -->
+    <dict>
+      <key>name</key><string>YAML Values</string>
+      <key>scope</key><string>string.unquoted.yaml, string.quoted.yaml, constant.numeric.yaml, constant.language.yaml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- TOML TABLE HEADERS -->
+    <dict>
+      <key>name</key><string>TOML Table</string>
+      <key>scope</key><string>entity.name.section.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E86A4A</string></dict>
+    </dict>
+
+    <!-- TOML ARRAY OF TABLES -->
+    <dict>
+      <key>name</key><string>TOML Array of Tables</string>
+      <key>scope</key><string>entity.name.section.table.array.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E86A4A</string></dict>
+    </dict>
+
+    <!-- TOML KEYS -->
+    <dict>
+      <key>name</key><string>TOML Keys</string>
+      <key>scope</key><string>support.type.property-name.toml, variable.other.key.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C28CFF</string></dict>
+    </dict>
+
+    <!-- TOML STRINGS -->
+    <dict>
+      <key>name</key><string>TOML Strings</string>
+      <key>scope</key><string>string.quoted.double.toml, string.quoted.single.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- TOML NUMBERS -->
+    <dict>
+      <key>name</key><string>TOML Numbers</string>
+      <key>scope</key><string>constant.numeric.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- TOML BOOLEANS -->
+    <dict>
+      <key>name</key><string>TOML Booleans</string>
+      <key>scope</key><string>constant.language.boolean.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- TOML DATES -->
+    <dict>
+      <key>name</key><string>TOML Dates</string>
+      <key>scope</key><string>constant.other.date.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- TOML INLINE TABLES -->
+    <dict>
+      <key>name</key><string>TOML Inline Table</string>
+      <key>scope</key><string>meta.inline-table.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#A8A8C0</string></dict>
+    </dict>
+
+    <!-- TOML ARRAYS -->
+    <dict>
+      <key>name</key><string>TOML Arrays</string>
+      <key>scope</key><string>meta.array.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#A8A8C0</string></dict>
+    </dict>
+
+    <!-- TOML KEY/VALUE SEPARATOR -->
+    <dict>
+      <key>name</key><string>TOML Key/Value Separator</string>
+      <key>scope</key><string>punctuation.separator.key-value.toml</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E86A4A</string></dict>
+    </dict>
+
+    <!-- REGEX -->
+    <dict>
+      <key>name</key><string>Regex</string>
+      <key>scope</key><string>string.regexp</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+    <!-- DIFF INSERTED -->
+    <dict>
+      <key>name</key><string>Diff Inserted</string>
+      <key>scope</key><string>markup.inserted</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#8FFFCB</string></dict>
+    </dict>
+
+    <!-- DIFF DELETED -->
+    <dict>
+      <key>name</key><string>Diff Deleted</string>
+      <key>scope</key><string>markup.deleted</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FF4F70</string></dict>
+    </dict>
+
+    <!-- DIFF CHANGED -->
+    <dict>
+      <key>name</key><string>Diff Changed</string>
+      <key>scope</key><string>markup.changed</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FFD479</string></dict>
+    </dict>
+
+    <!-- SHELL VARIABLES -->
+    <dict>
+      <key>name</key><string>Shell Variables</string>
+      <key>scope</key><string>variable.other.readwrite.shell, variable.other.normal.shell</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E4E4F0</string></dict>
+    </dict>
+
+    <!-- SHELL INTERPOLATION -->
+    <dict>
+      <key>name</key><string>Shell Interpolation</string>
+      <key>scope</key><string>string.interpolated.shell</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5FE8FF</string></dict>
+    </dict>
+
+  </array>
+
+</dict>
+</plist>

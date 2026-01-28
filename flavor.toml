@@ -24,11 +24,9 @@ border_style  = { fg = "#1A1A22", bold= true}
 
 symlink_target = {fg = "#C28CFF", italic = true}
 
-syntect_theme = "obsidian-veil"
-
 [indicator]
 parent  = { fg = "#A8A8C0", bg = "#121217" }
-current = { fg = "#0A0A0D", bg = "#E86A4A", bold = true }
+current = { fg = "#FF9F40", bg = "#0E0E11", bold = true}
 preview = { fg = "#E86A4A", bg = "#14141A" }
 
 padding = { open = "█", close = "█" }

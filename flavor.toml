@@ -163,6 +163,7 @@ rules = [
   { url = "*.yml",  fg = "#FF8A5A" },
   { url = "*.toml", fg = "#5FE8FF" },
   { url = "*.ini",  fg = "#C28CFF" },
+  { url = "*.conf",  fg = "#FF7AD1" },
 
   # DOCUMENTS
   { url = "*.md",  fg = "#C28CFF" },

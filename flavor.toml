@@ -136,46 +136,46 @@ icon_error = ""
 [filetype]
 rules = [
   # MEDIA
-  { mime = "image/*",        fg = "#5FE8FF" },  # crystal cyan
-  { mime = "video/*",        fg = "#C28CFF" },  # amethyst
-  { mime = "audio/*",        fg = "#8FFFCB" },  # mint glow
-
-  # ARCHIVES
-  { mime = "application/*zip", fg = "#FFD479" }, # gold
-  { mime = "application/*tar", fg = "#E86A4A" },
-  { mime = "application/*gzip", fg = "#FF8A5A" },
-  { mime = "application/*7z", fg = "#FF4F70" },
-
-  # CODE
-  { url = "*.rs", fg = "#C28CFF" },
-  { url = "*.py", fg = "#5FE8FF" },
-  { url = "*.js", fg = "#FFD479" },
-  { url = "*.ts", fg = "#5FE8FF" },
-  { url = "*.lua", fg = "#5FE8FF" },
-  { url = "*.go", fg = "#5FE8FF" },
-  { url = "*.sh", fg = "#8FFFCB" },
-  { url = "*.c",  fg = "#5FE8FF" },
-  { url = "*.h",  fg = "#C28CFF" },
-
-  # CONFIG / DATA
-  { url = "*.json", fg = "#FFD479" },
-  { url = "*.yaml", fg = "#FF8A5A" },
-  { url = "*.yml",  fg = "#FF8A5A" },
-  { url = "*.toml", fg = "#5FE8FF" },
-  { url = "*.ini",  fg = "#C28CFF" },
-  { url = "*.conf",  fg = "#FF7AD1" },
-
-  # DOCUMENTS
-  { url = "*.md",  fg = "#C28CFF" },
-  { url = "*.txt", fg = "#E4E4F0" },
-  { url = "*.pdf", fg = "#FF4F70" },
+  { mime = "image/*",        fg = "#B7F0FF" },
+  { mime = "video/*",        fg = "#E0B7FF" },
+  { mime = "audio/*",        fg = "#8FFFCB" },
 
   # EXECUTABLES
-  { mime = "application/x-executable", fg = "#FF4F70", bold = true },
+  { mime = "application/octet-stream", is = "exec", fg = "#FF4F70", bold = true },
+  { url = "*.{exe,dll,so,o,elf,bin}", is = "exec", fg = "#FF4F70", bold = true },
+  { url = "*.{appimage,run,jar}", is = "exec", fg = "#FF4F70", bold = true },
+  { url = "*.{msi,deb,rpm,pkg}", is = "exec", fg = "#FF4F70", bold = true },
+  { url = "*.{efi,img,xpi}", is = "exec", fg = "#FF4F70", bold = true },
+
+  # ARCHIVES
+  { mime = "application/*tar*", fg = "#FF8A5A" },
+  { mime = "application/*zip*", fg = "#FF8A5A" },
+  { mime = "application/*7z*", fg = "#FF8A5A" },
+  { url = "*.{cpio,rpm,apk,whl,iso}", fg = "#FF8A5A" },
+
+  # CODE
+  { url = "*.rs", fg = "#5FE8FF" },
+  { url = "*.py", fg = "#5FE8FF" },
+  { url = "*.{mjs,js,jsx,cjs,clj,cljs}", fg = "#5FE8FF" },
+  { url = "*.{ts,tsx}", fg = "#5FE8FF" },
+  { url = "*.lua", fg = "#5FE8FF" },
+  { url = "*.go", fg = "#5FE8FF" },
+  { url = "*.{bash,sh,zsh,fish,ps1,bat,psm1,psd1}", fg = "#5FE8FF" },
+  { url = "*.{c,cpp,h}",  fg = "#5FE8FF" },
+  { url = "*.{java,kt,kts,scala}",  fg = "#5FE8FF" },
+  { url = "*.{rb,cs,php}",  fg = "#5FE8FF" },
+  { url = "*.{swift,svelte,vue}",  fg = "#5FE8FF" },
+  { url = "*.{r,jl,dart,hs}",  fg = "#5FE8FF" },
+
+  # CONFIG / DATA
+  { url = "*.{json,conf,cfg,ini,toml,yaml,yml,json,xml,plist}", fg = "#C28CFF" },
+
+  # DOCUMENTS
+  { url = "*.{wiki,rss,atom,ppt,pptx,docs,epub,mobi,rst,md,adoc,tex,pdf,html,htm,css,scss,sass,less,stylus,ejs,jinja,mustache,hbs}",  fg = "#FFD479" },
 
   # SPECIAL
   { mime = "inode/empty", fg = "#8FFFCB" },
-  { url = "*", is = "orphan", fg = "#FF4F70", bold = true },
+  { url = "*", is = "orphan", fg = "#8A8FA6", bold = true },
 
   # FALLBACKS
   { url = "*/", fg = "#E86A4A" },

@@ -140,18 +140,13 @@ rules = [
   { mime = "video/*",        fg = "#E0B7FF" },
   { mime = "audio/*",        fg = "#8FFFCB" },
 
-  # EXECUTABLES
-  { mime = "application/octet-stream", is = "exec", fg = "#FF4F70", bold = true },
-  { url = "*.{exe,dll,so,o,elf,bin}", is = "exec", fg = "#FF4F70", bold = true },
-  { url = "*.{appimage,run,jar}", is = "exec", fg = "#FF4F70", bold = true },
-  { url = "*.{msi,deb,rpm,pkg}", is = "exec", fg = "#FF4F70", bold = true },
-  { url = "*.{efi,img,xpi}", is = "exec", fg = "#FF4F70", bold = true },
-
   # ARCHIVES
   { mime = "application/*tar*", fg = "#FF8A5A" },
   { mime = "application/*zip*", fg = "#FF8A5A" },
   { mime = "application/*7z*", fg = "#FF8A5A" },
-  { url = "*.{cpio,rpm,apk,whl,iso}", fg = "#FF8A5A" },
+  { mime = "application/*{lzop,lzma,xz,zstd}", fg = "#FF8A5A" },
+  { url = "*.{cpio,rpm,apk,whl,iso,lz4}", fg = "#FF8A5A" },
+  { url = "*.{br,Z,snappy}", fg = "#FF8A5A" },
 
   # CODE
   { url = "*.rs", fg = "#5FE8FF" },
@@ -176,6 +171,8 @@ rules = [
   # SPECIAL
   { mime = "inode/empty", fg = "#8FFFCB" },
   { url = "*", is = "orphan", fg = "#8A8FA6", bold = true },
+  # EXECUTABLES
+  { url = "*", is = "exec", fg = "#FF4F70", bold = true },
 
   # FALLBACKS
   { url = "*/", fg = "#E86A4A" },

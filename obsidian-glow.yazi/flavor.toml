@@ -1,5 +1,5 @@
 [flavor]
-dark = "obsidian-veil"
+dark = "obsidian-glow"
 
 [app]
 overall = { bg = "#0A0A0D" }
@@ -13,16 +13,16 @@ find_position = { fg = "#E4E4F0", bg = "reset", bold = true, italic = true}
 marker_copied   = { fg = "#8FFFCB", bg = "#8FFFCB" }
 marker_cut      = { fg = "#C44A32", bg = "#C44A32" }
 marker_marked   = { fg = "#5FE8FF", bg = "#5FE8FF" }
-marker_selected = { fg = "#C28CFF", bg = "#C28CFF" }
+marker_selected = { fg = "#C694FF", bg = "#C694FF" }
 
 count_copied   = { fg = "#0A0A0D", bg = "#8FFFCB" }
 count_cut      = {fg = "#0A0A0D", bg = "#C44A32"} 
-count_selected = {fg = "#0A0A0D", bg = "#C28CFF"}
+count_selected = {fg = "#0A0A0D", bg = "#C694FF"}
 
 border_symbol = "┃"
 border_style  = { fg = "#1A1A22", bold= true}
 
-symlink_target = {fg = "#C28CFF", italic = true}
+symlink_target = {fg = "#C694FF", italic = true}
 
 [indicator]
 parent  = { fg = "#A8A8C0", bg = "#121217" }
@@ -38,8 +38,8 @@ normal_alt = {fg = "#5FE8FF", bg = "#121217"}
 select_main = {fg = "#0A0A0D", bg = "#5FE8FF", bold = true}
 select_alt = {fg = "#E86A4A", bg = "#121217"}
 
-unset_main = {fg = "#0A0A0D", bg = "#C28CFF"}
-unset_alt = {fg ="#C28CFF", bg ="#121217"}
+unset_main = {fg = "#0A0A0D", bg = "#C694FF"}
+unset_alt = {fg ="#C694FF", bg ="#121217"}
 
 [tabs]
 active   = { fg = "#0A0A0D", bg = "#E86A4A", bold = true }
@@ -89,7 +89,7 @@ btn_labels = ["Yes", "No"]
 [spot]
 border   = { fg = "#1A1A22" }
 title    = { fg = "#E86A4A", bold = true }
-tbl_col  = { fg = "#C28CFF", bold = true }
+tbl_col  = { fg = "#C694FF", bold = true }
 tbl_cell = { fg = "#E4E4F0" }
 
 [notify]
@@ -136,9 +136,9 @@ icon_error = ""
 [filetype]
 rules = [
   # MEDIA
-  { mime = "image/*",        fg = "#B7F0FF" },
-  { mime = "video/*",        fg = "#E0B7FF" },
-  { mime = "audio/*",        fg = "#8FFFCB" },
+  { mime = "image/*",        fg = "#5FE8FF" },
+  { mime = "video/*",        fg = "#EF94F9" },
+  { mime = "audio/*",        fg = "#5CFFB3" },
 
   # ARCHIVES
   { mime = "application/*tar*", fg = "#FF8A5A" },
@@ -163,7 +163,7 @@ rules = [
   { url = "*.{r,jl,dart,hs}",  fg = "#5FE8FF" },
 
   # CONFIG / DATA
-  { url = "*.{json,conf,cfg,ini,toml,yaml,yml,json,xml,plist}", fg = "#C28CFF" },
+  { url = "*.{json,conf,cfg,ini,toml,yaml,yml,json,xml,plist}", fg = "#C694FF" },
 
   # DOCUMENTS
   { url = "*.{wiki,rss,atom,ppt,pptx,docs,epub,mobi,rst,md,adoc,tex,pdf,html,htm,css,scss,sass,less,stylus,ejs,jinja,mustache,hbs}",  fg = "#FFD479" },
@@ -185,5 +185,5 @@ prepend_dirs = [
 
 append_exts = [
   { name = "mp3", text = "", fg = "#E86A4A" },
-  { name = "mp4", text = "", fg = "#C28CFF" },
+  { name = "mp4", text = "", fg = "#C694FF" },
 ]

@@ -5,9 +5,9 @@
 <dict>
 
   <!-- METADATA -->
-  <key>name</key><string>Obsidian Veil</string>
-  <key>author</key><string>Custom</string>
-  <key>semanticClass</key><string>theme.dark.obsidianveil</string>
+  <key>name</key><string>Obsidian Glow</string>
+  <key>author</key><string>ZimCodes</string>
+  <key>semanticClass</key><string>theme.dark.obsidianglow</string>
   <key>colorSpaceName</key><string>sRGB</string>
 
   <!-- GLOBAL SETTINGS -->

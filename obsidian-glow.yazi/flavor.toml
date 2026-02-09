@@ -25,7 +25,7 @@ border_style  = { fg = "#1A1A22", bold= true}
 symlink_target = {fg = "#C694FF", italic = true}
 
 [indicator]
-parent  = { fg = "#A8A8C0", bg = "#121217" }
+parent  = { fg = "#C0C0E0", bg = "#121217" }
 current = { fg = "#FF9F40", bg = "#0E0E11", bold = true}
 preview = { fg = "#E86A4A", bg = "#14141A" }
 
@@ -43,13 +43,13 @@ unset_alt = {fg ="#C694FF", bg ="#121217"}
 
 [tabs]
 active   = { fg = "#0A0A0D", bg = "#E86A4A", bold = true }
-inactive = { fg = "#A8A8C0", bg = "#121217" }
+inactive = { fg = "#C0C0E0", bg = "#121217" }
 
 sep_inner = { open = " ", close = " " }
 sep_outer = { open = " ", close = " " }
 
 [status]
-overall = { fg = "#A8A8C0", bg = "#121217" }
+overall = { fg = "#C0C0E0", bg = "#121217" }
 
 sep_left  = { open = " ", close = " " }
 sep_right = { open = " ", close = " " }
@@ -69,7 +69,7 @@ cols = 2
 mask = { bg = "#0A0A0D" }
 
 cand = { fg = "#E86A4A", bold = true }
-rest = { fg = "#A8A8C0" }
+rest = { fg = "#C0C0E0" }
 desc = { fg = "#E4E4F0" }
 
 separator       = " → "
@@ -141,12 +141,12 @@ rules = [
   { mime = "audio/*",        fg = "#5CFFB3" },
 
   # ARCHIVES
-  { mime = "application/*tar*", fg = "#FF8A5A" },
-  { mime = "application/*zip*", fg = "#FF8A5A" },
-  { mime = "application/*7z*", fg = "#FF8A5A" },
-  { mime = "application/*{lzop,lzma,xz,zstd}", fg = "#FF8A5A" },
-  { url = "*.{cpio,rpm,apk,whl,iso,lz4}", fg = "#FF8A5A" },
-  { url = "*.{br,Z,snappy}", fg = "#FF8A5A" },
+  { mime = "application/*tar*", fg = "#FFB35A" },
+  { mime = "application/*zip*", fg = "#FFB35A" },
+  { mime = "application/*7z*", fg = "#FFB35A" },
+  { mime = "application/*{lzop,lzma,xz,zstd}", fg = "#FFB35A" },
+  { url = "*.{cpio,rpm,apk,whl,iso,lz4}", fg = "#FFB35A" },
+  { url = "*.{br,Z,snappy}", fg = "#FFB35A" },
 
   # CODE
   { url = "*.rs", fg = "#5FE8FF" },
@@ -163,14 +163,14 @@ rules = [
   { url = "*.{r,jl,dart,hs}",  fg = "#5FE8FF" },
 
   # CONFIG / DATA
-  { url = "*.{json,conf,cfg,ini,toml,yaml,yml,json,xml,plist}", fg = "#C694FF" },
+  { url = "*.{json,conf,cfg,ini,toml,yaml,yml,xml,plist}", fg = "#C694FF" },
 
   # DOCUMENTS
   { url = "*.{wiki,rss,atom,ppt,pptx,docs,epub,mobi,rst,md,adoc,tex,pdf,html,htm,css,scss,sass,less,stylus,ejs,jinja,mustache,hbs}",  fg = "#FFD479" },
 
   # SPECIAL
   { mime = "inode/empty", fg = "#8FFFCB" },
-  { url = "*", is = "orphan", fg = "#8A8FA6", bold = true },
+  { url = "*", is = "orphan", fg = "#8FA2FF", bold = true },
   # EXECUTABLES
   { url = "*", is = "exec", fg = "#FF4F70", bold = true },
 

@@ -57,12 +57,12 @@ sep_right = { open = " ", close = " " }
 perm_type  = { fg = "#E86A4A" }
 perm_read  = { fg = "#32B6BD" }
 perm_write = { fg = "#FFD479" }
-perm_exec  = { fg = "#FF5C7A" }
+perm_exec  = { fg = "#D97A8C" }
 perm_sep   = { fg = "#5A5A6A" }
 
 progress_label  = { fg = "#E86A4A", bold = true }
 progress_normal = { fg = "#E86A4A", bg = "#1A1A22" }
-progress_error  = { fg = "#FF5C7A", bg = "#1A1A22", bold = true }
+progress_error  = { fg = "#D97A8C", bg = "#1A1A22", bold = true }
 
 [which]
 cols = 2
@@ -95,7 +95,7 @@ tbl_cell = { fg = "#D8D8D8" }
 [notify]
 title_info  = { fg = "#5DDFFB", bold = true }
 title_warn  = { fg = "#FFD479", bold = true }
-title_error = { fg = "#FF5C7A", bold = true }
+title_error = { fg = "#D97A8C", bold = true }
 
 [pick]
 border   = { fg = "#1A1A22" }
@@ -163,7 +163,7 @@ rules = [
   { url = "*.{r,jl,dart,hs}",  fg = "#5DDFFB" },
 
   # CONFIG / DATA
-  { url = "*.{json,conf,cfg,ini,toml,yaml,yml,json,xml,plist}", fg = "#9E97CE" },
+  { url = "*.{json,conf,cfg,ini,toml,yaml,yml,xml,plist}", fg = "#9E97CE" },
 
   # DOCUMENTS
   { url = "*.{wiki,rss,atom,ppt,pptx,docs,epub,mobi,rst,md,adoc,tex,pdf,html,htm,css,scss,sass,less,stylus,ejs,jinja,mustache,hbs}",  fg = "#FFD479" },
@@ -172,7 +172,7 @@ rules = [
   { mime = "inode/empty", fg = "#32B6BD" },
   { url = "*", is = "orphan", fg = "#8A8FA6", bold = true },
   # EXECUTABLES
-  { url = "*", is = "exec", fg = "#FF5C7A", bold = true },
+  { url = "*", is = "exec", fg = "#D97A8C", bold = true },
 
   # FALLBACKS
   { url = "*/", fg = "#E86A4A" },

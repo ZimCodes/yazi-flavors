@@ -4,7 +4,7 @@ A collection of custom [yazi flavors](https://yazi-rs.github.io/).
 
 ## Flavors
 
-| obsidian-glow | obsidian-soft-glow |
+| [obsidian-glow](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-glow.yazi) | [obsidian-soft-glow](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-soft-glow.yazi) |
 | -------------- | ------------------ |
 | ![obsidian-glow flavor](./obsidian-glow.yazi/preview.png) | ![obsidian-soft-glow flavor](./obsidian-soft-glow.yazi/preview.png) |
 

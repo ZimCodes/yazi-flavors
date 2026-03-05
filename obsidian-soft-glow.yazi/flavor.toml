@@ -123,11 +123,11 @@ title   = { fg = "#E86A4A", bold = true }
 hovered = { fg = "#0A0A0D", bg = "#E86A4A", bold = true }
 
 [help]
-on      = { fg = "#E86A4A", bold = true }
+on      = { fg = "#FF9F40", bold = true }
 run     = { fg = "#32B6BD" }
 desc    = { fg = "#D8D8D8" }
-hovered = { fg = "#0A0A0D", bg = "#E86A4A" }
-footer  = { fg = "#5A5A6A" }
+hovered = {  bg = "#0E0E11", bold = true}
+footer  = { fg = "#9E97CE" }
 
 icon_info  = ""
 icon_warn  = ""
